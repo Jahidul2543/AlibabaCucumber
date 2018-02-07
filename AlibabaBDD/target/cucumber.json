@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11728057730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search Laptop",
+        "description": "",
+        "id": "search-feature;search-laptop",
+        "after": [
+          {
+            "result": {
+              "duration": 1918680481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9111043762,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in Home Page",
+            "match": {
+              "location": "SearchSteps.i_am_in_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9760278968,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter product name Laptop in search box",
+            "match": {
+              "location": "SearchSteps.enter_product_name_Laptop_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138253,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Search Button",
+            "match": {
+              "location": "SearchSteps.click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683025516,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Laptop items appear",
+            "match": {
+              "location": "SearchSteps.laptop_items_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Feature",
+    "description": "In order to search item in search product\r\nas a user I need to be in Home Page",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]

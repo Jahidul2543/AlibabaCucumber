@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlibabaBDD/AlibabaBDD.iml" filepath="$PROJECT_DIR$/AlibabaBDD/AlibabaBDD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlibabaCucumber.iml" filepath="$PROJECT_DIR$/AlibabaCucumber.iml" />
+    </modules>
+  </component>
+</project>
