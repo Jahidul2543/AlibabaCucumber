@@ -10,11 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="AlibabaBDD" target="1.5" />
-      <module name="AlibabaCucumber" target="1.5" />
+      <module name="AlibabaBDD" target="1.8" />
+      <module name="AlibabaCucumber" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
   </component>
 </project>
