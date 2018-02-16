@@ -97,9 +97,9 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"top\"]/div[2]/div/div[3]//div[2]/a")
     public static WebElement downloadWhatsApp;
 
-    public void enterProductName() {
+    public void enterProductName(String product) {
         System.out.println("Home Page title: " + driver.getTitle());
-        searchBox.sendKeys("Laptop", Keys.ENTER);
+        searchBox.sendKeys(product, Keys.ENTER);
     }
     public void clcikSearchButton(){
         //searchButton.click();
@@ -108,4 +108,5 @@ public class HomePage extends CommonAPI {
         String title = driver.getTitle();
         System.out.println("Get Product Search Page Title: " + title);
     }
+
 }

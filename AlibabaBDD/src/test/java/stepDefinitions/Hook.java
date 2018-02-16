@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Hook extends CommonAPI {
     @Before
-    public  void InitializeTest() {
+    public  void initializeTest() {
         String getOsNameFromSystem = System.getProperty("os.name");
         System.out.println("Opening the browser : Chrome");
         if(getOsNameFromSystem.contains("Mac")){
@@ -20,7 +20,7 @@ public class Hook extends CommonAPI {
         //driver = new FirefoxDriver();
     }
     @After
-    public void TearDownTest(Scenario scenario) {
+    public void tearDownTest(Scenario scenario) {
         if (scenario.isFailed()) {
             System.out.println(scenario.getName());
         }
