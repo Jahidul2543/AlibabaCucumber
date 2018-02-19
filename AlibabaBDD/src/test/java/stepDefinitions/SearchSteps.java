@@ -15,8 +15,7 @@ public class SearchSteps extends HomePage {
 
     @Given("^I am in Home Page$")
     public void i_am_in_Home_Page(){
-        driver.get("https://www.alibaba.com/");
-        driver.manage().window().setPosition(new Point(-2000, 0));
+        System.out.println("You are in Home Page");
     }
 
     @When("^Enter product name \"(.*)\" in search box$")
