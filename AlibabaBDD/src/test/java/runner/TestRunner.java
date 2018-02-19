@@ -7,18 +7,18 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/java/features"} ,
-        format = {"pretty","json:target/cucumber.json","html:target/site/cucumber-pretty","junit:junit_xml/cucumber.xml"},
+        format = {"pretty","json:reporting/cucumber.json","html:reporting/cucumber-pretty","junit:reporting/junit_xml/cucumber.xml"},
         glue = "stepDefinitions",
         strict = false,
         monochrome = true,
-        tags = {"@SmokeTest"},
+        tags = {"@SmokeTest,@FunctionalTest"},
         dryRun =false)
 
 public class TestRunner {
 
 }
 //AbstractTestNGCucumberTests
-
+// To run individual scenerio features = {"src/test/java/features/login.feature:4"}
 /*@CucumberOptions(
    features = the path of the feature files
    glue=the path of the step definition files
