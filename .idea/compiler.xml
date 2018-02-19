@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="AlibabaBDD" target="1.8" />
-      <module name="AlibabaCucumber" target="1.8" />
+      <module name="AlibabaCucumber" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

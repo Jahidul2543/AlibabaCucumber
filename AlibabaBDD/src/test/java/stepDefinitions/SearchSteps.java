@@ -10,7 +10,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.support.PageFactory;
 import pageObjects.HomePage;
 
-public class SearchSteps extends CommonAPI {
+public class SearchSteps extends HomePage {
     HomePage objHomePage = PageFactory.initElements(driver, HomePage.class);
 
     @Given("^I am in Home Page$")
@@ -20,6 +20,7 @@ public class SearchSteps extends CommonAPI {
     }
 
     @When("^Enter product name \"(.*)\" in search box$")
+
     public void enter_product_name_Laptop_in_search_box(String product){
         objHomePage.enterProductName(product);
     }

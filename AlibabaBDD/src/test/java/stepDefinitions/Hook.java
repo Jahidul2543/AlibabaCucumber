@@ -4,9 +4,13 @@ import base.CommonAPI;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hook extends CommonAPI {
+
     @Before
     public  void initializeTest() {
         String getOsNameFromSystem = System.getProperty("os.name");
@@ -17,7 +21,12 @@ public class Hook extends CommonAPI {
             System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         }
         driver = new ChromeDriver();
+
         //driver = new FirefoxDriver();
+        driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS); // 20
+        driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS); //35
+        driver.get("https://www.alibaba.com/");
+        driver.manage().window().maximize();
     }
     @After
     public void tearDownTest(Scenario scenario) {

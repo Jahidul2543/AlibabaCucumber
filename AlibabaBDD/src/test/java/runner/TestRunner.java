@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         strict = false,
         monochrome = true,
-        tags = {"@FunctionalTest,@SmokeTest"},
-        dryRun = false)
+        tags = {"@SmokeTest"},
+        dryRun =false)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
