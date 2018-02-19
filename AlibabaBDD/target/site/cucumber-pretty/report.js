@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 38140665373,
+  "duration": 41025100339,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,25 +43,25 @@ formatter.match({
   "location": "LoginSteps.user_is_in_login_page()"
 });
 formatter.result({
-  "duration": 44789603548,
+  "duration": 51072554685,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.enter_invalid_email_and_password()"
 });
 formatter.result({
-  "duration": 15288562731,
+  "duration": 13781063902,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.error_message_appear()"
 });
 formatter.result({
-  "duration": 37421697,
+  "duration": 32188033,
   "status": "passed"
 });
 formatter.after({
-  "duration": 6745366435,
+  "duration": 4510242744,
   "status": "passed"
 });
 });

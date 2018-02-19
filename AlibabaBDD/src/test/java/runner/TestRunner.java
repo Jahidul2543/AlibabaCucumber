@@ -14,9 +14,10 @@ import org.junit.runner.RunWith;
         tags = {"@SmokeTest"},
         dryRun =false)
 
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner {
 
 }
+//AbstractTestNGCucumberTests
 
 /*@CucumberOptions(
    features = the path of the feature files

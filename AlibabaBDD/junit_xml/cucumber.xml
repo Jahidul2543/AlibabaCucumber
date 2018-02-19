@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="105.00162">
-<testcase classname="Login" name="Login with invalid credentials" time="105.00162">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="110.42115">
+<testcase classname="Login" name="Login with invalid credentials" time="110.42115">
 <system-out><![CDATA[Given User is in login page.................................................passed
 When Enter invalid email and password.......................................passed
 Then Error message appear...................................................passed

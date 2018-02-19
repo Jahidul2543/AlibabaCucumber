@@ -8,7 +8,7 @@ import pageObjects.HomePage;
 import pageObjects.SignInPage;
 import java.io.IOException;
 
-public class LoginSteps extends ByInputFromExls {
+public class LoginSteps extends SignInPage {
 
     HomePage objHomePage = PageFactory.initElements(driver, HomePage.class);
     SignInPage objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
