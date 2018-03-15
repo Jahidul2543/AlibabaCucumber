@@ -2,7 +2,6 @@ package runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -11,10 +10,10 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         strict = false,
         monochrome = true,
-        tags = {"@SmokeTest,@FunctionalTest"},
+        tags = {"@SmokeTest"},
         dryRun =false)
 
-public class TestRunner {
+public class ParallelRunnerTest {
 
 }
 //AbstractTestNGCucumberTests

@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 40742688929,
+              "duration": 31404921661,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 3904873364,
+              "duration": 2494585219,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52390751707,
+              "duration": 44830237649,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 15075808746,
+              "duration": 9954626683,
               "status": "passed"
             },
             "line": 6,
@@ -58,8 +58,9 @@
           },
           {
             "result": {
-              "duration": 37903468,
-              "status": "passed"
+              "duration": 36275834,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat pageObjects.SignInPage.verifyErrorMessag(SignInPage.java:251)\r\n\tat stepDefinitions.LoginSteps.error_message_appear(LoginSteps.java:29)\r\n\tat ✽.Then Error message appear(login.feature:7)\r\n",
+              "status": "failed"
             },
             "line": 7,
             "name": "Error message appear",
@@ -80,212 +81,6 @@
       {
         "line": 1,
         "name": "@SmokeTest"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 28977595883,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.initializeTest()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "Search Laptop",
-        "description": "",
-        "id": "search-feature;search-laptop;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 2755180537,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.tearDownTest(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11397061,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I am in Home Page",
-            "match": {
-              "location": "SearchSteps.i_am_in_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 23829790895,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Enter product name \"Dell\" in search box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Dell",
-                  "offset": 20
-                }
-              ],
-              "location": "SearchSteps.enter_product_name_Laptop_in_search_box(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 188965,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click Search Button",
-            "match": {
-              "location": "SearchSteps.click_Search_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1774399418,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Laptop items appear",
-            "match": {
-              "location": "SearchSteps.laptop_items_appear()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@FunctionalTest"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 29546700298,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.initializeTest()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Search Laptop",
-        "description": "",
-        "id": "search-feature;search-laptop;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 3458076953,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.tearDownTest(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8350077,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I am in Home Page",
-            "match": {
-              "location": "SearchSteps.i_am_in_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 31704272298,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Enter product name \"Asus\" in search box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Asus",
-                  "offset": 20
-                }
-              ],
-              "location": "SearchSteps.enter_product_name_Laptop_in_search_box(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 129197,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Click Search Button",
-            "match": {
-              "location": "SearchSteps.click_Search_Button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1726357650,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Laptop items appear",
-            "match": {
-              "location": "SearchSteps.laptop_items_appear()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@FunctionalTest"
-          }
-        ]
-      }
-    ],
-    "name": "Search Feature",
-    "description": "In order to search item in search product\r\nas a user I need to be in Home Page",
-    "id": "search-feature",
-    "keyword": "Feature",
-    "uri": "search.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@FunctionalTest"
       }
     ]
   }
