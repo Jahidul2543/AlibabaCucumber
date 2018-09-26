@@ -16,7 +16,7 @@ public class Hook extends CommonAPI {
         String getOsNameFromSystem = System.getProperty("os.name");
         System.out.println("Opening the browser : Chrome");
         if(getOsNameFromSystem.contains("Mac")){
-            System.setProperty("webdriver.chrome.driver", "AlibabaBDD/driver/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "../AlibabaBDD/driver/chromedriver");
         }else if(getOsNameFromSystem.contains("Windows")){
             System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
         }

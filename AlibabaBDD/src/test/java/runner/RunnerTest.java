@@ -10,10 +10,11 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         strict = false,
         monochrome = true,
-        tags = {"@FunctionalTest"},
+        tags = {"@SmokeTest"},
         dryRun =false)
 
 public class RunnerTest {
+
 
 }
 //AbstractTestNGCucumberTests

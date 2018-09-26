@@ -1,8 +1,9 @@
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\stepDefinitions\LoginSteps.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\base\DataReader.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\stepDefinitions\Hook.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\stepDefinitions\SearchSteps.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\pageObjects\HomePage.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\runner\TestRunner.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\base\CommonAPI.java
-C:\Users\Rabeka\IdeaProjects\AlibabaCucumber\AlibabaBDD\src\test\java\pageObjects\SignInPage.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/runner/RunnerTest.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/runner/ParallelRunnerTest.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/stepDefinitions/Hook.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/pageObjects/HomePage.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/pageObjects/SignInPage.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/base/CommonAPI.java
+/Users/jahidul/IdeaProjects/AlibabaCucumber/AlibabaBDD/src/test/java/base/DataReader.java
