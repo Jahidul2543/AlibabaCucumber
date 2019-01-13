@@ -6,8 +6,8 @@ Feature: Search Feature
   Scenario Outline: Search Laptop
     Given I am in Home Page
     When Enter product name "<Product>" in search box
-    And Click Search Button
-    Then  Laptop items appear
+    And  Click Search Button
+    Then Laptop items appear
 
     Examples:
       | Product |

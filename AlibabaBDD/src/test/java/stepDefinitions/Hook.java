@@ -22,11 +22,11 @@ public class Hook extends CommonAPI {
         }
         driver = new ChromeDriver();
 
-        //driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS); // 20
-        driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS); //35
+
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); // 20
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS); //35
         driver.get("https://www.alibaba.com/");
-        driver.manage().window().maximize();
+       // driver.manage().window().maximize();
     }
     @After
     public void tearDownTest(Scenario scenario) {

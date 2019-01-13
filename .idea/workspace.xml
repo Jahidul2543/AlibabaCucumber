@@ -4,22 +4,17 @@
     <list default="true" id="4e76caef-5c94-4e9b-a995-3a7b33770b0e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/AlibabaBDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/AlibabaBDD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/driver/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/reporting/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/reporting/cucumber-pretty/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/reporting/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/reporting/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/reporting/junit_xml/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/reporting/junit_xml/cucumber.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/base/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/ParallelRunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/runner/TestRunner.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/stepDefinitions/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/stepDefinitions/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/stepDefinitions/SearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaBDD/target/test-classes/stepDefinitions/SearchSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlibabaCucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlibabaCucumber.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,34 +31,41 @@
     <session id="923310261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="class" value="2" />
+          <entry key="feature" value="1" />
+          <entry key="java" value="15" />
           <entry key="json" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="15" />
           <entry key="JSON" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="105" />
-          <entry key="java" value="402" />
+          <entry key="feature" value="135" />
+          <entry key="java" value="448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="105" />
-          <entry key="JAVA" value="402" />
+          <entry key="Cucumber" value="134" />
+          <entry key="JAVA" value="448" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -73,39 +75,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+            <state relative-caret-position="465">
+              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+            <state relative-caret-position="30">
+              <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -123,17 +105,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/SignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state relative-caret-position="159">
+              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+              <folding>
+                <element signature="e#3083#3084#0" expanded="true" />
+                <element signature="e#3143#3144#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -141,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+            <state relative-caret-position="208">
+              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,31 +146,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/DataTable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#6699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlibabaBDD/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="206">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlibabaBDD/reporting/cucumber.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AlibabaBDD/reporting/junit_xml/cucumber.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -192,6 +190,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>signIN</find>
+      <find>r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,7 +204,6 @@
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinations/Hook.java" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/base/DataReader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/ByInputFromExls.java" />
@@ -214,13 +212,14 @@
         <option value="$PROJECT_DIR$/AlibabaBDD/pom.xml" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/ParallelRunnerTest.java" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java" />
-        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/SignInPage.java" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/UnusedDefinations.java" />
-        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java" />
+        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java" />
+        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java" />
         <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/login.feature" />
+        <option value="$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature" />
       </list>
     </option>
   </component>
@@ -254,9 +253,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
+    <option name="x" value="362" />
     <option name="y" value="23" />
-    <option name="width" value="1604" />
+    <option name="width" value="1318" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -265,8 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,13 +281,6 @@
               <item name="AlibabaCucumber" type="462c0819:PsiDirectoryNode" />
               <item name="AlibabaBDD" type="462c0819:PsiDirectoryNode" />
               <item name="reporting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlibabaCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlibabaCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="AlibabaBDD" type="462c0819:PsiDirectoryNode" />
-              <item name="reporting" type="462c0819:PsiDirectoryNode" />
-              <item name="junit_xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlibabaCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -349,16 +339,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AlibabaCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlibabaCucumber" type="462c0819:PsiDirectoryNode" />
-              <item name="AlibabaBDD" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -366,12 +351,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537921552626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547401381030" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -398,12 +383,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RunnerTest">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -492,20 +471,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Cucumber java.Feature: login" />
       <item itemvalue="Cucumber java.Feature: search" />
       <item itemvalue="JUnit.RunnerTest" />
-      <item itemvalue="Cucumber java.Feature: login" />
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Application.LoginSteps" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="Application.LoginSteps" />
-        <item itemvalue="Cucumber java.Feature: login" />
-        <item itemvalue="Cucumber java.Feature: search" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -533,59 +517,58 @@
       <workItem from="1520537531973" duration="1875000" />
       <workItem from="1520911616103" duration="2618000" />
       <workItem from="1521030975614" duration="1785000" />
-      <workItem from="1537879553751" duration="13064000" />
+      <workItem from="1537879553751" duration="13828000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerTest - 2018.09.25 at 15h 21m 12s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 02h 30m 54s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 15h 24m 02s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 02h 54m 49s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 15h 31m 29s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 02h 59m 31s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 15h 34m 34s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 03h 00m 54s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 15h 37m 22s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 03h 04m 39s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 15h 39m 49s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 03h 11m 48s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 19h 11m 14s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 03h 12m 58s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 20h 04m 35s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 03h 18m 57s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 20h 06m 00s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 12h 07m 15s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerTest - 2018.09.25 at 20h 24m 31s.xml">
+    <history-entry file="RunnerTest - 2019.01.13 at 12h 11m 56s.xml">
       <configuration name="RunnerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76708000" />
+    <option name="totallyTimeSpent" value="77472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="23" width="1604" height="1027" extended-state="0" />
+    <frame x="362" y="23" width="1318" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27664578" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2053476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43850267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -593,7 +576,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.34652406" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.1315508" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28663102" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -683,96 +667,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/ParallelRunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/ParallelRunnerTest.java" />
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/UnusedDefinations.java" />
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/reporting/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="73" column="76" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/reporting/junit_xml/cucumber.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="268" column="28" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/UnusedDefinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/reporting/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/reporting/junit_xml/cucumber.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="562">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/SearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="373">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
@@ -781,33 +694,102 @@
             <element signature="e#769#770#0" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
             <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/SignInPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java">
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+        <state relative-caret-position="206">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/Hook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="e#3083#3084#0" expanded="true" />
+            <element signature="e#3143#3144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="186" column="16" selection-start-line="186" selection-start-column="16" selection-end-line="186" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/pageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/stepDefinitions/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/DataTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#6699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/features/search.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlibabaBDD/src/test/java/runner/RunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
