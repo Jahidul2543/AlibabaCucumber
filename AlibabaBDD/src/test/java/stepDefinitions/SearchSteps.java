@@ -14,10 +14,12 @@ public class SearchSteps extends HomePage {
         System.out.println("You are in Home Page");
     }
 
-    @When("^Enter product name \"(.*)\" in search box$")
-
-    public void enter_product_name_Laptop_in_search_box(String product){
+    @When("^Enter product name \"([^\"]*)\" \"([^\"]*)\"  in search box$")
+    public void enter_product_name_in_search_box(String product, String productt){
         objHomePage.enterProductName(product);
+        System.out.println("Searching Product: " + product);
+        objHomePage.enterProductName(productt);
+        System.out.println("Searching Productt: " + productt);
     }
 
     @When("^Click Search Button$")

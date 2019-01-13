@@ -77,10 +77,10 @@ public class SignInPage extends CommonAPI {
     }
 
    //Data Table Cucumber
-   public String signInUsingDataTable(String email, String passCode) throws InterruptedException {
+   public String signInUsingDataTable(String email, String passCode)  {
        account.sendKeys(email);
        password.sendKeys(passCode);
-       Thread.sleep(5000);
+      // Thread.sleep(200);
        loginSubmit.click();
        String errorMessage = signInErrorMesage.getText();
        System.out.println("Sign In Error Message" + errorMessage);
