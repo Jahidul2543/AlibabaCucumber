@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8243056913,
+              "duration": 4397050496,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Login with invalid credentials",
+        "line": 18,
+        "name": "Search Laptop",
         "description": "",
-        "id": "login;login-with-invalid-credentials",
+        "id": "search-feature;search-laptop;;2",
         "after": [
           {
             "result": {
-              "duration": 111230886,
+              "duration": 137303092,
               "status": "passed"
             },
             "match": {
@@ -30,85 +30,188 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 67557174307,
+              "duration": 92838404,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is in login page",
+            "line": 11,
+            "name": "I am in Home Page",
             "match": {
-              "location": "LoginSteps.user_is_in_login_page()"
+              "location": "SearchSteps.i_am_in_Home_Page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5488933367,
+              "duration": 3288435375,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 6,
-                "value": "#When   Enter invalid email and password"
-              }
-            ],
-            "line": 7,
-            "name": "Enter invalid email and password from Data Table",
+            "line": 12,
+            "name": "Enter product name \"Dell\" \"Mac\"  in search box",
             "match": {
-              "location": "LoginSteps.enter_invalid_email_and_password_from_Data_Table(DataTable)"
+              "arguments": [
+                {
+                  "val": "Dell",
+                  "offset": 20
+                },
+                {
+                  "val": "Mac",
+                  "offset": 27
+                }
+              ],
+              "location": "SearchSteps.enter_product_name_in_search_box(String,String)"
             },
-            "rows": [
-              {
-                "cells": [
-                  "email",
-                  "passCode"
-                ],
-                "line": 8
-              },
-              {
-                "cells": [
-                  "testdat@gmail.com",
-                  "testdata"
-                ],
-                "line": 9
-              },
-              {
-                "cells": [
-                  "testabc@gmail.com",
-                  "testabc"
-                ],
-                "line": 10
-              }
+            "matchedColumns": [
+              0,
+              1
             ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 22938,
+              "duration": 18926,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Search Button",
+            "match": {
+              "location": "SearchSteps.click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95334226,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Laptop items appear",
+            "match": {
+              "location": "SearchSteps.laptop_items_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4778230620,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Search Laptop",
+        "description": "",
+        "id": "search-feature;search-laptop;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 137427171,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 920192,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am in Home Page",
+            "match": {
+              "location": "SearchSteps.i_am_in_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3500291343,
               "status": "passed"
             },
             "line": 12,
-            "name": "Error message appear",
+            "name": "Enter product name \"Asus\" \"Hp\"  in search box",
             "match": {
-              "location": "LoginSteps.error_message_appear()"
+              "arguments": [
+                {
+                  "val": "Asus",
+                  "offset": 20
+                },
+                {
+                  "val": "Hp",
+                  "offset": 27
+                }
+              ],
+              "location": "SearchSteps.enter_product_name_in_search_box(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30056,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Search Button",
+            "match": {
+              "location": "SearchSteps.click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6523914,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Laptop items appear",
+            "match": {
+              "location": "SearchSteps.laptop_items_appear()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "",
-    "id": "login",
+    "name": "Search Feature",
+    "description": "In order to search item in search product\nas a user I need to be in Home Page",
+    "id": "search-feature",
     "keyword": "Feature",
-    "uri": "login.feature",
+    "uri": "search.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@SmokeTest"
+        "name": "@FunctionalTest"
       }
     ]
   }

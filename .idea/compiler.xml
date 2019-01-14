@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AlibabaBDD" />
+        <module name="Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="AlibabaBDD" target="1.8" />
       <module name="AlibabaCucumber" target="1.5" />
+      <module name="Generic" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

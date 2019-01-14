@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepDefinitions",
         strict = false,
         monochrome = true,
-        tags = {"@SmokeTest"},  //@SmokeTest, @FunctionalTest, @DocString
+        tags = {"@FunctionalTest"},  //@SmokeTest, @FunctionalTest, @DocString
         dryRun =false)
 
 public class RunnerTest {

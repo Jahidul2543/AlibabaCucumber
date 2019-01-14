@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AlibabaBDD/AlibabaBDD.iml" filepath="$PROJECT_DIR$/AlibabaBDD/AlibabaBDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlibabaCucumber.iml" filepath="$PROJECT_DIR$/AlibabaCucumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
     </modules>
   </component>
 </project>

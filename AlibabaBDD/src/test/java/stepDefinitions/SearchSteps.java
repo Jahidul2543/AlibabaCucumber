@@ -4,6 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import pageObjects.HomePage;
 
 public class SearchSteps extends HomePage {
@@ -30,5 +31,6 @@ public class SearchSteps extends HomePage {
     @Then("^Laptop items appear$")
     public void laptop_items_appear() {
         objHomePage.userInLaptopPage();
+       // Assert.assertEquals("a","b");
     }
 }
